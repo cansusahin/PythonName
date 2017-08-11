@@ -8,13 +8,13 @@ class MainPage(webapp2.RequestHandler):
 <head>
     <style>
 body {
-   background-image: url("wallpaper-2501884.png");
+   background-image: url("/images/wallpaper-2501884.png");
 
 }
 
 h1 {
     color: PapayaWhip;
-     background-image: url("bg-heading.png");
+     background-image: url("/images/bg-heading.png");
      background-repeat: no-repeat;
      background-position: center;
 }
