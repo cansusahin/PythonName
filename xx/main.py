@@ -3,20 +3,20 @@ import webapp2
 
 class MainPage(webapp2.RequestHandler):
     def get(self):
-        self.response.out.write("""<!doctype html>
+        self.response.out.write("""<!DOCTYPE html>
 <html lang="tr">
 <head>
-    <style>
-body {
-   background-image: url("/images/wallpaper-2501884.png");
+    <style>body {
+   background-image: url("https://hdwallpapersbuzz.com/wp-content/uploads/2017/02/Black-3d-hd-wallpapers-1080p-widescreen-31.jpg");
 
 }
 
 h1 {
     color: PapayaWhip;
-     background-image: url("/images/bg-heading.png");
+     background-image: url("https://lh3.googleusercontent.com/-E0P04jAUGRU/TrmH9y4Gz8I/AAAAAAAAKZo/g8V_u06zt8U/s530/base2.png");
      background-repeat: no-repeat;
      background-position: center;
+
 }
 .center {
     text-align: center;
@@ -30,11 +30,10 @@ div {
 }
 </style>
     <meta charset="UTF-8">
-      <link rel="stylesheet" href="styles.css">
-    <title>Cansu Ozge Sahin</title>
+    <title>Cansu Özge Şahin</title>
 </head>
 <body>
-     <h1 class="center">Cansu Ozge Sahin</h1>
+     <h1 class="center">Cansu Özge Şahin</h1>
 
 </body>
 </html>
