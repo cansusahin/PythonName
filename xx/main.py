@@ -13,7 +13,7 @@ class MainPage(webapp2.RequestHandler):
 
 
 h1 {
-    color: black;
+    color: PapayaWhip;
 
 }
 .center {
