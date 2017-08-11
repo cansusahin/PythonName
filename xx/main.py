@@ -7,7 +7,6 @@ import webapp2
 class MainPage(webapp2.RequestHandler):
     def get(self):
         self.response.out.write("""
-                  <!DOCTYPE html>
 <html lang="tr">
 <head>
     <style>body {
