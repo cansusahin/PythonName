@@ -22,7 +22,6 @@ div {
 }
 </style>
     <meta charset="UTF-8">
-      <link rel="stylesheet" href="styles.css">
     <title>Cansu Özge Şahin</title>
 </head>
 <body>
