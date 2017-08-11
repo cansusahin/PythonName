@@ -27,10 +27,10 @@ div {
 </style>
     <meta charset="UTF-8">
       <link rel="stylesheet" href="styles.css">
-    <title>Cansu Özge Şahin</title>
+    <title>Cansu Ozge Sahin</title>
 </head>
 <body>
-     <h1 class="center">Cansu Özge Şahin</h1>
+     <h1 class="center">Cansu Ozge Sahin</h1>
 
 </body>
 </html>
