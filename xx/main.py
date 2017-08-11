@@ -3,7 +3,7 @@ import webapp2
 
 class MainPage(webapp2.RequestHandler):
     def get(self):
-        self.response.out.write("""
+        self.response.out.write("""<!doctype html>
 <html lang="tr">
 <head>
     <style>
@@ -33,7 +33,8 @@ div {
      <h1 class="center">Cansu Özge Şahin</h1>
 
 </body>
-</html>""")
+</html>
+""")
 
 
 app = webapp2.WSGIApplication([
