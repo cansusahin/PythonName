@@ -7,12 +7,16 @@ class MainPage(webapp2.RequestHandler):
 <html lang="tr">
 <head>
     <style>
-    body {
-background-color: powderblue;
+body {
+   background-image: url("wallpaper-2501884.png");
+
 }
 
 h1 {
     color: PapayaWhip;
+     background-image: url("bg-heading.png");
+     background-repeat: no-repeat;
+     background-position: center;
 }
 .center {
     text-align: center;
