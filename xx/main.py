@@ -1,3 +1,6 @@
+import cgi
+
+from google.appengine.api import users
 
 import webapp2
 
@@ -10,7 +13,7 @@ class MainPage(webapp2.RequestHandler):
 
 
 h1 {
-    color: Black;
+    color: black;
 
 }
 .center {
