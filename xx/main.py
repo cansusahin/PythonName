@@ -1,7 +1,4 @@
 
-import cgi
-
-from google.appengine.api import users
 import webapp2
 
 class MainPage(webapp2.RequestHandler):
@@ -9,17 +6,13 @@ class MainPage(webapp2.RequestHandler):
         self.response.out.write("""
 <html lang="tr">
 <head>
-    <style>body {
-   background-image: url("wallpaper-2501884.png");
-
+    <style>
+    body {
+background-color: powderblue;
 }
 
 h1 {
     color: PapayaWhip;
-     background-image: url("bg-heading.png");
-     background-repeat: no-repeat;
-     background-position: center;
-
 }
 .center {
     text-align: center;
