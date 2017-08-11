@@ -3,10 +3,11 @@ import webapp2
 
 class MainPage(webapp2.RequestHandler):
     def get(self):
-        self.response.out.write("""<!DOCTYPE html>
+        self.response.out.write("""<!doctype html>
 <html lang="tr">
 <head>
-    <style>body {
+    <style>
+    body {
    background-image: url("https://hdwallpapersbuzz.com/wp-content/uploads/2017/02/Black-3d-hd-wallpapers-1080p-widescreen-31.jpg");
 
 }
@@ -29,6 +30,7 @@ div {
     margin: 0;
 }
 </style>
+
     <meta charset="UTF-8">
     <title>Cansu Özge Şahin</title>
 </head>
