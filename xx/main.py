@@ -1,25 +1,14 @@
-
-import cgi
-
-from google.appengine.api import users
 import webapp2
 
 class MainPage(webapp2.RequestHandler):
     def get(self):
-        self.response.out.write("""
+        self.response.out.write("""<!doctype html>
 <html lang="tr">
 <head>
-    <style>body {
-   background-image: url("wallpaper-2501884.png");
-
-}
+    <style>
 
 h1 {
     color: PapayaWhip;
-     background-image: url("bg-heading.png");
-     background-repeat: no-repeat;
-     background-position: center;
-
 }
 .center {
     text-align: center;
@@ -40,7 +29,8 @@ div {
      <h1 class="center">Cansu Özge Şahin</h1>
 
 </body>
-</html>""")
+</html>
+""")
 
 
 app = webapp2.WSGIApplication([
